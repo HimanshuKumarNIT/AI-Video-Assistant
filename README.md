@@ -217,7 +217,6 @@ WHISPER_MODEL=small
 SARVAM_STT_MODEL=saaras:v2.5
 ```
 
-Never commit `.env` or expose API keys publicly.
 
 ## ⚙️ Installation
 
@@ -288,19 +287,6 @@ vector_db/
 
 Generated files such as downloaded audio, local vector databases, Python cache, and virtual environments should not be committed.
 
-## 🔮 Future Improvements
-
-- Better error handling and retry mechanisms
-- Meeting-specific vector-store isolation
-- Centralized configuration
-- Background processing for long videos
-- Progress indicators
-- Persistent meeting history
-- Speaker diarization
-- Timestamp-aware retrieval
-- Additional language support
-- Evaluation of generated summaries and answers
-- Production deployment
 
 ## 🎯 Project Objective
 
